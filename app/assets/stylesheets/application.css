@@ -1,0 +1,54 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require material
+ *= require material_icons
+ *= require_tree .
+ *= require_self
+ */
+  .demo-card-event.mdl-card {
+    height: 156px;
+    background: #3E4EB8;
+    margin: 15px;
+  }
+  .demo-card-event > .mdl-card__actions {
+    border-color: rgba(255, 255, 255, 0.2);
+  }
+  .demo-card-event > .mdl-card__title {
+    align-items: flex-start;
+  }
+  .demo-card-event > .mdl-card__title > h4 {
+    margin-top: 0;
+  }
+  .demo-card-event > .mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+  }
+  .demo-card-event > .mdl-card__actions > .material-icons {
+    padding-right: 10px;
+  }
+  .demo-card-event > .mdl-card__title,
+  .demo-card-event > .mdl-card__actions,
+  .demo-card-event > .mdl-card__actions > .mdl-button {
+    color: #fff;
+  }
+
+  #new-book {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    z-index: 900;
+  }

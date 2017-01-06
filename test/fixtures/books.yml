@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  author: MyString
+  pages: 1
+  start_page: 1
+  current_page: 1
+  finished: false
+  discarded: false
+
+two:
+  title: MyString
+  author: MyString
+  pages: 1
+  start_page: 1
+  current_page: 1
+  finished: false
+  discarded: false
